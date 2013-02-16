@@ -1,0 +1,37 @@
+\documentclass[11pt, a4paper, oneside]{article}
+
+\begin{document}
+\title{Fourth Problem Set}
+\author{Aaron Rosen}
+\date{Friday, February 22}
+\maketitle
+
+\section*{Problem 1}
+$B \models C$ just in case $\models (B \to C)$ \\
+just in case $\bar{v}(B \to C) = T$ \\
+just in case \\
+$\bar{v}(B) = T$ and $\bar{v}(C) = T$ \\
+or \\
+$\bar{v}(B) = F$ and $\bar{v}(C) = T$ \\
+or \\
+$\bar{v}(B) = F$ and $\bar{v}(C) = F$ \\
+In the second two cases, $\bar{v}(B) = F$ 
+   which means $\bar{v}(\neg{B}) = T$\\ 
+Hence $\models \neg{B}$\\
+In the first two cases $\bar{v}(C) = T$ which means $\models C$\\
+So in all three cases $\models \neg{b}$ or $\models C$.
+
+
+\section*{Problem 2}
+\subsection*{(a)}
+$(x \land y \land \neg{z}) \lor (x \land \neg{y} \land z) 
+   \lor (\neg{x} \land y \land z) \lor (\neg{x} \land y \land \neg{z})
+   \lor (\neg{x} \land \neg{y} \land \neg{z})$
+
+\subsection*{(b)}
+$\neg{(x \land y \land z)} \land \neg{(x \land \neg{y} \land \neg{z})}
+      \land \neg{(\neg{x} \land \neg{y} \land z)}$\\
+$\Rightarrow (\neg{x} \lor \neg{y} \lor \neg{z}) 
+      \land (\neg{x} \lor \neg{y} \lor z) \land (x \lor y \lor \neg{z})$
+
+\end{document}
