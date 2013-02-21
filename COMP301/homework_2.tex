@@ -208,4 +208,32 @@ DFA\\
    \path[->] (q02) edge node {$0$} (q01);
 \end{tikzpicture}
 \section*{Problem 5 (Kozen HW3 \#3)}
+Let us define automata $M=(Q, \Sigma, \delta, s, F)$ as the DFA for $A$.
+Now we can define an NFA\\
+$\hat{M} = (\hat{Q}, \Sigma, \Delta, \hat{S}, \hat{F})$ where\\
+$\hat{Q} = Q^5$\\
+$\hat{S} = \{[p,q,s,q,p] | p,q \in Q\}$ where $p$ and $q$ are guesses.\\
+$\hat{F} = \{[v,w,f,w,v] | v,w \in Q, f \in F\}$\\
+$\Delta((p,q,r,t,u),a) = \{[p,q,\delta(r,b), \delta(t,a), 
+                           \delta(u,c)] | b,c \in \Sigma\}$\\
+\\
+Applying the $\Delta$ function to the start state we get\\
+$\Delta(\hat{S}, y) = \{[p,q,\delta(s,x), \delta(q,z), \delta(p,y)] | 
+                         p,q \in Q, x,z \in \Sigma^{|y|}\}$\\
+\\
+Using this we can prove that $L(\hat{M}) = $Middlethirds$L(M)$\\
+\\
+$y \in L(\hat{M}) \Leftrightarrow$\\
+$\Delta(\hat{S}, y) \cap \hat{F} \neq \emptyset \Leftrightarrow$\\
+$\{[p,q,\delta(s,x), \delta(q,z), \delta(p,y)] | p,q \in Q, x,z 
+   \in \Sigma^{|y|}\} \cap \{[v,w,f,w,v] | v,w \in Q, f \in F\} 
+   \neq \emptyset \Leftrightarrow$\\
+$\exists x,z \in \Sigma^{|y|}, p,q \in Q$ such that $p = \delta(s,x), 
+   q = \delta(p,y)$ and $\delta(q,z) \in F \Leftrightarrow$\\
+$\exists x,z \in \Sigma^{|y|}$ such that $\delta(\delta(\delta(s,x),y,z)
+   \in F \Leftrightarrow$\\
+$\exists x,z \in \Sigma^{|y|}$ such that $\delta(s,xyz) \in F 
+   \Leftrightarrow$\\
+$\exists x,z \in \Sigma^{|y|}$ such that $xyz \in L(M) \Leftrightarrow$\\
+$y \in$ Middlethirds$L(M)$
 \end{document}
