@@ -1,5 +1,7 @@
 \documentclass[11pt, a4paper, oneside]{article}
 
+\usepackage[mathscr]{euscript}
+
 \begin{document}
 \title{Fourth Problem Set}
 \author{Aaron Rosen}
@@ -34,4 +36,64 @@ $\neg{(x \land y \land z)} \land \neg{(x \land \neg{y} \land \neg{z})}
 $\Rightarrow (\neg{x} \lor \neg{y} \lor \neg{z}) 
       \land (\neg{x} \lor \neg{y} \lor z) \land (x \lor y \lor \neg{z})$
 
+\section*{Problem 3}
+\subsection*{(a)}
+Let $C = \{$customers$\}$ $J = \{$Jeans$\}$ $J_x = \{$Jeans that fit $x \in C\}$. We know that $\forall x_1,\ldots
+   ,x_m$ $\exists j_1,\ldots,j_m$ such that $j_i \in J_{x_i}$ where $i = 1, \ldots, m$\\
+\\
+Assume $J_x$ is finite $\forall x \in C$\\
+Need to show that there is a way of assigning jeans to customers so that every $x \in C$ buys a $j \in J$ that fits
+and no two customers but the same pair of jeans.\\
+(i.e. $\exists p: C \rightarrow J$ such that $p(x) \in J_x$ and $p$ is injective)\\
+\\
+Let $\Sigma \subseteq \bar{\mathscr{S}}$ such that $\exists v:\mathscr{S} \rightarrow \{T, F\}$ satisfying $\Sigma$
+   iff There exists such a function $p$\\
+\\
+We will use sentence letters: $b_{xj}$ to build the wffs in $\Sigma$\\
+\\
+Let $\Sigma = A \cup B \cup C$ where\\
+$A = \{ \bigvee_{j \in J_x} b_{xj}, \forall x \in C\}$\\
+$B = \{b_{xj} \rightarrow \neg{b_{xl}}, \forall x \in C, \forall j,l \in J, j \neq l \}$\\
+$C = \{ b_{xj} \rightarrow \neg{b_{yj}}, \forall x,y \in C, \forall j \in J \}$\\
+\\
+It is useful to note that by $A$ every customer $x \in C$ buys a pair of jeans (i.e. $p(x) \in J_{x}$), by $B$
+every customer only buys one pair of jeans (i.e. $p$ is well defined) and by $C$ every pair of jeans is only 
+bought by one customer (i.e. $p$ is injective).\\
+\\
+Now we can show that $\Sigma$ is satisfiable using the compactness theorem.\\
+\\
+Let $\Delta \subseteq \Sigma$ be finite.\\
+\\
+Lemma: $\Delta \subseteq \Delta'$ and $\Delta'$ is satisfiable then $\Delta$ is satisfiable.\\
+\\
+Let $C_0 = \{ x \in C | b_{xj}$ shows up in some wff in $\Delta \}$ and $J_0 = \{ j \in J | b_{xj}$ shows up
+in some wff in $\Delta \}$, these sets are both finite because $\Delta$ is finite.\\
+Now let $J_1 = J_0 \cup \bigcup_{x \in C_0} J_x$ and take $\Delta'$ to be the set:\\
+
+$\Delta' = \{$all wffs in $\Sigma$ built from $b_{xj}$ with $x \in C_0$ and $j \in J_1\}$\\
+\\
+Now to show that $\Delta'$ is satisfiable, we have a finite set of customers $C_0$ and we can define\\
+
+$p': C_0 \rightarrow J_1$\\
+\\
+We can show that $p'(x) \in J_{1_x}$ because the definition of $J_1$ says that it contains all of the sets of 
+fitting jeans for each customer. We know that $p'$ is also well defined and injective. Therefore $\Delta'$ is
+satisfiable. Meaning $\Delta$ is satisfiable and by the compactness theorem $\Sigma$ is satisfiable.
+\subsection*{(b)}
+We can show that the conclusion will not hold if we drop the extra hypothesis by providing a coutnerexample.\\
+\\
+Let $C = \{c_0, c_1, c_2, \ldots \}$ and $J = \{j_0, j_1, j_2, \ldots \}$\\
+There is at least one customer that fits infinitely many jeans because we dropped the extra hypothesis (i.e. say
+$c_0$ fits $j_0, j_1, j_2, \ldots$)\\
+Say\\
+$c_1$ only fits $j_0$\\
+$c_2$ only fits $j_1$\\
+$\vdots$\\
+This satisfies the conditions of the problem because given a finite set $D = \{x_0, x_1, \ldots, x_m \} \subseteq
+C$ we can say $c_i$ fits $j_{i-1}$ for $i = 1, \ldots, m$ then $c_0$ fits $j_m$.\\
+Now if we set up a function $p: C \rightarrow J$ as:\\
+
+$p(c_i) = j_{i-1}, \forall i > 0$\\
+\\
+Then there is no pair of jeans for $c_0$ to buy.
 \end{document}

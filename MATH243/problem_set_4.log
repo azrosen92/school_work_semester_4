@@ -1,17 +1,14 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/MacPorts 2012_4) (format=pdflatex 2012.11.26)  19 FEB 2013 17:13
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.15)  21 FEB 2013 20:43
 entering extended mode
- restricted \write18 enabled.
  %&-line parsing enabled.
 **problem_set_4.tex output-format=pdf
 (./problem_set_4.tex
 LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, cz
-ech, slovak, dutch, ukenglish, usenglishmax, basque, french, german-x-2009-06-1
-9, ngerman-x-2009-06-19, german, ngerman, swissgerman, italian, polish, portugu
-ese, spanish, catalan, galician, loaded.
-(/opt/local/share/texmf-texlive-dist/tex/latex/base/article.cls
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/opt/local/share/texmf-texlive-dist/tex/latex/base/size11.clo
+(/usr/share/texmf-texlive/tex/latex/base/size11.clo
 File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -26,52 +23,142 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(./problem_set_4.aux)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/euscript.sty
+Package: euscript 2009/06/22 v3.00 Euler Script fonts
+LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
+(Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
+) (./problem_set_4.aux)
 \openout1 = `problem_set_4.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 7.
+(Font)              <12> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 7.
+(Font)              <8> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 7.
+(Font)              <6> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 10.
- [1
+(Font)              <10.95> on input line 12.
+LaTeX Font Info:    Try loading font information for U+eus on input line 49.
+ (/usr/share/texmf-texlive/tex/latex/amsfonts/ueus.fd
+File: ueus.fd 2009/06/22 v3.00 Euler Script
+)
+Underfull \hbox (badness 10000) in paragraph at lines 41--72
 
-{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./problem_set_4.
-aux) ) 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--72
+
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 73--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--95
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 96--99
+
+ []
+
+[3] (./problem_set_4.aux) ) 
 Here is how much of TeX's memory you used:
- 231 strings out of 494767
- 2596 string characters out of 3171495
- 49685 words of memory out of 3000000
- 3531 multiletter control sequences out of 15000+200000
- 8503 words of font info for 30 fonts, out of 3000000 for 9000
- 134 hyphenation exceptions out of 8191
- 21i,6n,19p,162b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
-</opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmbx1
-2.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmr10
-.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmr12.
-pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmr17.p
-fb></opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb>
-Output written on problem_set_4.pdf (1 page, 61310 bytes).
+ 260 strings out of 495061
+ 3068 string characters out of 1182621
+ 53536 words of memory out of 3000000
+ 3503 multiletter control sequences out of 15000+50000
+ 9103 words of font info for 33 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 21i,6n,22p,224b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type
+1/public/amsfonts/euler/eusm10.pfb>
+Output written on problem_set_4.pdf (3 pages, 130761 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 64 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
