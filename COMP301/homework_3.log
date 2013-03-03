@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/MacPorts 2012_4) (format=pdflatex 2012.11.26)  3 MAR 2013 18:25
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/MacPorts 2012_4) (format=pdflatex 2012.11.26)  3 MAR 2013 18:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -84,10 +84,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--37
 {/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
 (./homework_3.aux) ) 
 Here is how much of TeX's memory you used:
- 232 strings out of 494767
- 2575 string characters out of 3171495
+ 231 strings out of 494767
+ 2569 string characters out of 3171495
  50685 words of memory out of 3000000
- 3532 multiletter control sequences out of 15000+200000
+ 3531 multiletter control sequences out of 15000+200000
  8503 words of font info for 30 fonts, out of 3000000 for 9000
  134 hyphenation exceptions out of 8191
  21i,8n,19p,159b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -101,7 +101,7 @@ ts/cm/cmr17.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfont
 s/cm/cmr8.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb>
-Output written on homework_3.pdf (2 pages, 94171 bytes).
+Output written on homework_3.pdf (2 pages, 94906 bytes).
 PDF statistics:
  47 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream
