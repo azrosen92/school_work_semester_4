@@ -1,0 +1,53 @@
+\documentclass[11pt, a4paper, oneside]{article}
+
+\begin{document}
+
+\title{Homework 3}
+\author{Aaron Rosen}
+\date{Tuesday, March 6}
+\maketitle
+
+\section*{Problem 1 (Kozen HW3 \#1)}
+\subsection*{(a)}
+$L = \{ a^n b^m | n = 2m\}$
+Let $k$ be given. Let $x = a^{2k}$, $y = b^k$ and $z = E$. 
+	Note that $xyz = a^{2k} b^k \in L$. Let $y = uvw$, where $|u| = i$, $|v| = j$,
+	$|w| = l$, and $v \neq E$. Then $k = i + j + l$ and $j > 0$. \\
+
+$xuv^rwz = a^{2(i+j+l)}uv^rw$\\
+\\
+When $r = 1$ then $|uvw| = |y| = k$ but choose any other $r > 1$ and $|y| > k$ 
+	and more importantly $|y| \neq \frac{1}{2}|x|$ which means the string is no
+	no longer in the language.
+\subsection*{(b)}
+$L = \{x \in \{a, b, c\}^* | x$ is a palendrome; i.e., $x = $rev$(x)\}$\\
+Suppose for the sake of contradiction, $L$ is regular. Then \\
+
+$L \cap a^* b^* a^* = \{a^n b^m a^n\}$\\
+\\
+Which we know is not regular, so $L$ is not regular.
+\subsection*{(c)}
+$L = \{x \in \{a, b, c\}^* | $ the length of $x$ is a square $\}$\\
+Let $k$ be given and $k$ is a square. Let $x \in L$ so $|x| = k$. Let's 
+	say $x=rt$, where $r = \{a, b, c\}$ and $|t| = k - 1$,\\
+
+$x = r^2 t \notin L$\\
+\\
+because if $k$ is a square then $|x| = k - 1 + 2 = k + 1$ is not a square.
+\subsection*{(d)}
+
+\section*{Problem 2 (Kozen HW3 \#2)}
+\subsection*{(a)}
+
+\subsection{(b)}
+
+\section*{Problem 3 (Kozen HW3 \#3)}
+\subsection*{(a)}
+
+\subsection*{(b)}
+
+\subsection*{(c)}
+
+\end{document}
+
+
