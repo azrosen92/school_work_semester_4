@@ -1,5 +1,10 @@
 \documentclass[11pt, a4paper, oneside]{article}
 
+\usepackage{pifont}
+\newcommand{\cmark}{\ding{51}}
+\usepackage{tikz}
+\usetikzlibrary{arrows, automata}
+
 \begin{document}
 
 \title{Homework 3}
@@ -73,11 +78,68 @@ $p' \in F_A$ then $x \in L(A||B)$. Therefore $A||B$ must be regular.
 
 \section*{Problem 3 (Kozen HW3 \#3)}
 \subsection*{(a)}
+In the first machine only 7 and 8 are inaccessible, in the second all states 
+are accessible.
 
 \subsection*{(b)}
-
+\begin{tabular}{c c}
+\begin{tabular}{*{10}{c}}
+\hline
+1 \\
+\cmark & 2 \\
+\cmark & \cmark & 3 \\
+\cmark & \cmark & & 4 \\
+\cmark & & \cmark & \cmark & 5 \\
+ 		   & \cmark & \cmark & \cmark & \cmark & 6 \\
+\cmark & \cmark & \cmark & \cmark & \cmark & \cmark & 7 \\
+\cmark & & \cmark & \cmark & & \cmark & \cmark & 8 \\
+\hline
+\end{tabular}
+&
+\begin{tabular}{*{10}{c}}
+\hline
+1 \\
+ & 2 \\
+\cmark & \cmark & 3 \\
+\cmark & \cmark & & 4 \\
+\cmark & \cmark & \cmark & \cmark & 5 \\
+\cmark & \cmark & \cmark & \cmark & & 6 \\
+\cmark & \cmark & \cmark & \cmark & & & 7 \\
+\cmark & \cmark & & & \cmark & \cmark & \cmark & 8 \\
+\hline
+\end{tabular}
+\\
+$[3] = \{3,4\}$, $[2] = \{2,5,8\}$, $[1] = \{1,6\}$
+&
+$[1] = \{1,2\}$, $[3] = \{3,4,8\}$, $[5] = \{5,6,7\}$
+\end{tabular}
 \subsection*{(c)}
+\begin{tabular}{c c}
+\begin{tikzpicture}[auto, node distance=2cm]
+	\node[initial, state] 	(one)                        {$[1]$};
+	\node[state]            (two)   [below right of=one] {$[2]$};
+	\node[state, accepting] (three)	[above right of=two] {$[3]$};
 
+	\path[->] (one) edge[loop above] node {$a$} (one);
+	\path[->] (one) edge[bend left] node {$b$} (three);
+	\path[->] (two) edge[bend left] node {$a$} (three);
+	\path[->] (two) edge[bend left] node {$b$} (one);
+	\path[->] (three) edge[loop above] node {$a$} (three);
+	\path[->] (three) edge[bend left] node {$b$} (two);
+\end{tikzpicture}
+&
+\begin{tikzpicture}[auto, node distance=2cm]
+	\node [initial, state, accepting] (one) 													{$[1]$};
+	\node [state]											(three)  [below right of=one]  	{$[3]$};
+	\node [state]											(five)   [above right of=three] {$[5]$};
+
+	\path[->] (one) edge[bend right] node[below] {$a,b$} (three);
+	\path[->] (three) edge[bend right] node[below] {$a$} (five);
+	\path[->] (three) edge[bend right] node {$b$} (one);
+	\path[->] (five) edge[bend right] node {$a$} (one);
+	\path[->] (five) edge[bend right] node {$b$} (three);
+\end{tikzpicture}
+\end{tabular}
 \end{document}
 
 
