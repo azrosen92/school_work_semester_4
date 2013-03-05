@@ -45,6 +45,30 @@ Let $a = $"(" and $b = $ ")" then $L(a^* b^*) \cap P = L(a^n b^n)$ which we know
 $(01)^* || (10)^* = ((01) + (10) + (11)(00) + (00)(11))^*$
 
 \subsection*{(b)}
+Let $M_A$ and $M_B$ be machines: \\
+\\
+$M_A = (Q_A, \Sigma, \delta _A, S_A, F_A)$\\
+$M_B = (Q_B, \Sigma, \delta _B, S_B, F_B)$\\
+\\
+where $M_A$ is the macing accepting the language $A$ and $M_B$ is the machine
+accepting the language $B$. \\
+We can define the macine that accepts the language $A||B$ as: \\
+
+$M_{AB} = (Q_A \times Q_B, \Sigma, \delta _{AB}, S_A \times S_B, F_A \times F_B)$ 
+where $p \in Q_A$ and $q \in Q_B$. \\
+
+$\delta _{AB} ([p,q],a) = \{[\delta _A (p,a),q],[p, \delta _B (q,a)]\}$
+
+\underline{Lemma 1}
+Given an arbitrary state $[p,q]$, applying the transition function with 
+some $a \in \Sigma$ either moves state $p$ via $M_A$'s transition function
+to some $p' \in Q_A$, leaving $q$ in place, or moves state $q$ via $M_B$'s
+transition function to some state $q' \in Q_B$, leaving $p$ in place.\\
+\\
+Starting at some state $[s_a, s_b] \in S_A \times S_B$ with some $x \in \Sigma^*$.
+According to lemma 1, for each letter of $x$, $\delta _{AB}$ will return some 
+state in $Q_A \times Q_B$. If, after the last letter in $x$, $q' \in F_B$ and 
+$p' \in F_A$ then $x \in L(A||B)$. Therefore $A||B$ must be regular.
 
 
 \section*{Problem 3 (Kozen HW3 \#3)}

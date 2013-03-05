@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/MacPorts 2012_4) (format=pdflatex 2012.11.26)  3 MAR 2013 18:36
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/MacPorts 2012_4) (format=pdflatex 2012.11.26)  4 MAR 2013 23:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -81,8 +81,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--37
 
 [1
 
-{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-(./homework_3.aux) ) 
+{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 48--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--72
+
+ []
+
+[2] (./homework_3.aux) ) 
 Here is how much of TeX's memory you used:
  231 strings out of 494767
  2569 string characters out of 3171495
@@ -91,17 +115,17 @@ Here is how much of TeX's memory you used:
  8503 words of font info for 30 fonts, out of 3000000 for 9000
  134 hyphenation exceptions out of 8191
  21i,8n,19p,159b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
-</opt/local/share/texmf-texlive-dist/fonts/type1/public/ams
-fonts/cm/cmbx12.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/ams
-fonts/cm/cmmi8.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/amsf
-onts/cm/cmr10.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfo
-nts/cm/cmr12.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfon
-ts/cm/cmr17.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfont
-s/cm/cmr8.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfonts/
-cm/cmsy8.pfb>
-Output written on homework_3.pdf (2 pages, 95006 bytes).
+</opt/local/share/texmf-texlive-dist/fonts/type1/public
+/amsfonts/cm/cmbx12.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public
+/amsfonts/cm/cmmi8.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/a
+msfonts/cm/cmr12.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/am
+sfonts/cm/cmr17.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/ams
+fonts/cm/cmr8.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfo
+nts/cm/cmsy8.pfb>
+Output written on homework_3.pdf (2 pages, 101732 bytes).
 PDF statistics:
  47 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream
