@@ -23,7 +23,7 @@ $xuv^rwz = a^{2(i+j+l)}uv^rw$\\
 \\
 When $r = 1$ then $|uvw| = |y| = k$ but choose any other $r > 1$ and $|y| > k$ 
 	and more importantly $|y| \neq \frac{1}{2}|x|$ which means the string is no
-	no longer in the language.
+	longer in the language.
 \subsection*{(b)}
 $L = \{x \in \{a, b, c\}^* | x$ is a palendrome; i.e., $x = $rev$(x)\}$\\
 Suppose for the sake of contradiction, $L$ is regular. Then \\
@@ -62,9 +62,9 @@ We can define the macine that accepts the language $A||B$ as: \\
 $M_{AB} = (Q_A \times Q_B, \Sigma, \delta _{AB}, S_A \times S_B, F_A \times F_B)$ 
 where $p \in Q_A$ and $q \in Q_B$. \\
 
-$\delta _{AB} ([p,q],a) = \{[\delta _A (p,a),q],[p, \delta _B (q,a)]\}$
+$\delta _{AB} ([p,q],a) = \{[\delta _A (p,a),q],[p, \delta _B (q,a)]\}$\\
 
-\underline{Lemma 1}
+\textbf{\underline{Lemma 1}}
 Given an arbitrary state $[p,q]$, applying the transition function with 
 some $a \in \Sigma$ either moves state $p$ via $M_A$'s transition function
 to some $p' \in Q_A$, leaving $q$ in place, or moves state $q$ via $M_B$'s
