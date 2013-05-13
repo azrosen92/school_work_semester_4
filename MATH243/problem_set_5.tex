@@ -1,5 +1,7 @@
 \documentclass[11pt, a4paper, oneside]{article}
 
+\usepackage{amssymb}
+
 \begin{document}
 \title{Fifth Problem Set}
 \author{Aaron Rosen}
@@ -7,6 +9,22 @@
 \maketitle
 
 \section*{Problem 1}
+Assuming\\ 
+$\nvDash \neg A \Rightarrow$ there exists some truth assignment, $v$ such 
+  that $\bar{v}(\neg A)=F$, $\bar{v}(A)=T$\\
+$\nvDash B \Rightarrow$ there exists some truth assignment, $w$ such 
+  that $\bar{w}(B)=F$\\
+No conjunct of $A$ is a disjunct of $B$\\
+
+For truth assignment $v$, every conjunct of $A$ must evaluate to true. 
+If one conjunct in $A$ were also a disjunct of $B$ then $\bar{v}(B)=T$. 
+However, this contradicts our original assumption that no conjunct of $A$ 
+is a disjunct of $B$. Therefore $A \nvDash B$.\\
+
+For truth assignment $w$, every disjunct of $B$ must evaluate to false. If 
+one disjunct of $B$ were a conjunct of $A$ then $\bar{w}(A)=F$. This, too 
+contradicts our original assumption that no conjunct of $A$ is a disjunct 
+of $B$. Therefore $A \nvDash B$
 
 \section*{Problem 2}
 \subsection*{(a)}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/MacPorts 2012_4) (format=pdflatex 2012.11.26)  26 MAR 2013 23:22
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/MacPorts 2012_4) (format=pdflatex 2012.11.26)  28 MAR 2013 19:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -26,52 +26,75 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+(/opt/local/share/texmf-texlive-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/opt/local/share/texmf-texlive-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
 (./problem_set_5.aux)
 \openout1 = `problem_set_5.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 7.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 7.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 7.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 13.
- [1
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Try loading font information for U+msa on input line 9.
 
-{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./problem_se
-t_5.aux) ) 
+(/opt/local/share/texmf-texlive-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 9.
+
+(/opt/local/share/texmf-texlive-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 12--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--23
+
+ []
+
+[1
+
+{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+(./problem_set_5.aux) ) 
 Here is how much of TeX's memory you used:
- 231 strings out of 494767
- 2596 string characters out of 3171495
- 48685 words of memory out of 3000000
- 3531 multiletter control sequences out of 15000+200000
- 8503 words of font info for 30 fonts, out of 3000000 for 9000
+ 525 strings out of 494767
+ 5862 string characters out of 3171495
+ 50809 words of memory out of 3000000
+ 3805 multiletter control sequences out of 15000+200000
+ 11044 words of font info for 42 fonts, out of 3000000 for 9000
  134 hyphenation exceptions out of 8191
- 21i,6n,19p,162b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
-</opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/c
-mmi10.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/c
-mr10.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cm
-r12.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmr
-17.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb>
-Output written on problem_set_5.pdf (2 pages, 62914 bytes).
+ 23i,6n,24p,162b,197s stack positions out of 5000i,500n,10000p,200000b,50000s
+</opt/local/share/texmf-texlive-dist/fonts/type1/public/
+amsfonts/cm/cmbx12.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/
+amsfonts/cm/cmmi10.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/a
+msfonts/cm/cmr12.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/am
+sfonts/cm/cmr17.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb></opt/local/share/texmf-texlive-dist/fonts/type1/public/ams
+fonts/symbols/msbm10.pfb>
+Output written on problem_set_5.pdf (2 pages, 72018 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 39 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
